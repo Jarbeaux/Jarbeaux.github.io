@@ -18,7 +18,7 @@ const playerScale = 0.8; //makes the player just a bit smaller. Doesn't affect t
 // Player variables
 const player = {
   x: 50,
-  y: 100,
+  y: 600,
   speedX: 0,
   speedY: 0,
   width: undefined,
@@ -31,7 +31,7 @@ const player = {
 let hitDx;
 let hitDy;
 let hitBoxWidth = 50 * playerScale;
-let hitBoxHeight = 105 * playerScale;
+let hitBoxHeight = 100 * playerScale;
 let firstTimeSetup = true;
 
 const keyPress = {
