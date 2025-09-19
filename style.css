@@ -101,13 +101,34 @@ h2, h3 {
 }
 
 #portfolio li:hover {
-  background: #773fc0;
+  background: hsl(266, 51%, 50%);
 }
 
 #portfolio a {
   text-decoration: none;
   color: #000000;
 }
+
+img {
+  width: 380px;
+}
+
+#al-contents {
+  max-width: fit-content;
+  margin: auto;
+}
+
+.slideshow-container {
+  max-width: 380px;
+  position: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 14%;
+  margin-right: 10%;
+}
+
+
+
 @media screen and (min-width: 120px) and (max-width: 1080px) {
   main {
     height: 100ch;
