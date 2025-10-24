@@ -62,7 +62,7 @@ var init = function (window) {
             //          game.checkCirclePosition(circles[x])
             //      }
 
-            // TODO 8 / TODO 9 : Iterate over the array
+            
            
             
         }
