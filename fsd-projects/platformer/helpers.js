@@ -333,6 +333,8 @@ function projectileCollision() {
   if (currentAnimationType === animationTypes.frontDeath) {
     return;
   }
+  if (player.x + hitBoxWidth >= 400 && player.y + hitBoxHeight >= 695){currentAnimationType = animationTypes.frontDeath;
+      frameIndex = 0;}
 
   for (var i = 0; i < projectiles.length; i++) {
     //this deletes any projectiles that go off the screen
@@ -359,6 +361,7 @@ function projectileCollision() {
       currentAnimationType = animationTypes.frontDeath;
       frameIndex = 0;
     }
+
   }
 }
 
